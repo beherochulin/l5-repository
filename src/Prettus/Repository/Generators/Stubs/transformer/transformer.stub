@@ -1,0 +1,15 @@
+<?php
+$NAMESPACE$
+
+use League\Fractal\TransformerAbstract;
+use $MODEL$;
+
+class $CLASS$Transformer extends TransformerAbstract {
+    public function transform($CLASS$ $model) {
+        return [
+            'id' => (int) $model->id,
+            'created_at' => $model->created_at,
+            'updated_at' => $model->updated_at
+        ];
+    }
+}

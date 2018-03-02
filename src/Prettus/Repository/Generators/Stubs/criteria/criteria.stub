@@ -1,0 +1,11 @@
+<?php
+$NAMESPACE$
+
+use Prettus\Repository\Contracts\RepositoryInterface;
+use Prettus\Repository\Contracts\CriteriaInterface;
+
+class $CLASS$Criteria implements CriteriaInterface {
+    public function apply($model, RepositoryInterface $repository) {
+        return $model;
+    }
+}

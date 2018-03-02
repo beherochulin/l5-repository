@@ -1,0 +1,11 @@
+<?php
+$NAMESPACE$
+
+use Prettus\Repository\Presenter\FractalPresenter;
+use $TRANSFORMER$;
+
+class $CLASS$Presenter extends FractalPresenter {
+    public function getTransformer() {
+        return new $CLASS$Transformer();
+    }
+}
